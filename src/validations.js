@@ -20,4 +20,3 @@ export function checkRequired(fields) {
 
   return allValid;
 }
-
