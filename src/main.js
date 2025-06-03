@@ -1006,7 +1006,11 @@ function displayGroupMessages(groupe) {
     }
   }
 }
-
+/**
+ * 
+ * @param {Array} groupe 
+ * @description Affiche les membres du groupe.
+ */
 function showGroupMembers(groupe) {
   if (!groupe) return;
   const oldModal = document.getElementById('groupMembersModal');
